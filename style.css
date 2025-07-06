@@ -1,0 +1,165 @@
+body {
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1F2937;
+    color:  #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.menu-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up {
+    flex: 1;
+}
+
+.sign-up h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up, .header-list {
+    color: #E5E7EB;
+}
+
+.awesome {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 5px;
+}
+
+.image-placeholder {
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.image1, .image2, .image3, .image4 {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.random-pics {
+    display: flex;
+    gap: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 80px;
+}
+
+.quote-container {
+    padding: 160px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px ;
+    font-style: italic; 
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.citation {
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-to-action {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 30px 30px;
+    background-color: #3882F6; 
+    color: white;   
+    display: flex;
+}
+
+.cta-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button-2 {
+    background-color: #3882F6;
+    border: 1px solid white; 
+    color: white;
+    width: 10px;
+    height: 40px;
+    flex: 1;
+}
+
+.cta-text h3 {
+    margin: 0;
+}
+
+footer {
+    background-color:#1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
